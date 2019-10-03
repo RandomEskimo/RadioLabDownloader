@@ -102,7 +102,7 @@ namespace RadioLabDownloader
             {
                 string epName = count++.ToString() + "-" + episode.FileName;
                 string filePath = "Episodes\\" + epName;
-                if (File.Exists(epName))
+                if (File.Exists(filePath))
                 {
                     //Console.WriteLine("Skipping: {0}", episode.Name);
                     continue;
